@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "bankrollbuddy",
+	"version": "${version}",
+	"name": "Bankroll Buddy",
+	"description": "Client-side bankroll tracker for DonutSMP gamblers: session net, win/loss streaks, stop-loss and take-profit alerts, a HUD, and bet-sizing calculators.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.bankrollbuddy.client.BankrollBuddyClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
